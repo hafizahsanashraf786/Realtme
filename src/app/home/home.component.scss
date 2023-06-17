@@ -1,0 +1,370 @@
+.main-content {
+  background: #323238;
+
+  // mission cover image  section
+  .mission-bg-img {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+      linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+      linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+      linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+      linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+      linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+      linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+      linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+      url(../../assets/images/business-concept-with-team-close-up.jpg);
+    height: 703px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .mission {
+      top: 201px;
+      position: absolute;
+      color: #fff;
+      .title {
+        color: #ebff00;
+        font-weight: 500;
+        font-size: 54px;
+       
+      }
+      .sub-title {
+        font-weight: 500;
+        font-size: 40px;
+       
+      }
+      .text {
+        font-weight: 400;
+        font-size: 24px;
+       
+      }
+    }
+  }
+
+  // our Product
+  .product {
+    .our-product {
+      .product-title {
+        font-weight: 400;
+        font-size: 24px;
+        color: #ebff00;
+        font-family: "Poppins";
+      }
+      .our-works {
+        font-weight: 500;
+        font-size: 40px;
+        color: #ffffff;
+       
+      }
+
+
+
+
+    }
+    .container {
+      .card.daily {
+        background: #575f73 !important;
+        border: 1px solid #949c9e;
+        box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        .card-body {
+          background-color: #575f73 !important;
+          border-radius: 10px;
+        }
+        .card-img{
+          img{
+            width: 25%;
+          }
+         
+        }
+        .card-title {
+          font-weight: 500;
+          font-size: 24px;
+          color: #ffffff;
+          font-family: 'DM Sans';
+        }
+        .card-text {
+          font-weight: 400;
+          font-size: 16px;
+          color: #E5E5E5;
+          font-family: 'DM Sans';
+        }
+      }
+    }
+  }
+  
+  // About us
+  .about {
+    .about-title {
+      font-weight: 400;
+      font-size: 24px;
+      color: #ebff00;
+      font-family: "Poppins";
+    }
+    .about-us {
+      font-weight: 500;
+      font-size: 40px;
+      color: #ffffff;
+     
+    }
+
+    .container {
+      .about-value-text {
+       
+        font-weight: 400;
+        font-size: 20px;
+        color: #ffffff;
+      }
+
+      .about-list {
+        .list-group {
+          .list-group-item {
+            background: #323238;
+            border: none;
+            color: #e5e5e5;
+           
+
+            font-weight: 400;
+            font-size: 24px;
+            span {
+              background: #ebff00;
+              width: 27px;
+              height: 27px;
+              i {
+                color: #000;
+              }
+            }
+          }
+        }
+       
+      }
+
+      // polygon style
+      .polygons {
+        .polygon {
+          margin-top: -28px;
+        }
+        .hex4 {
+          position: relative;
+          height: 150px;
+          width: 150px;
+          background: #ebff00;
+          -webkit-clip-path: polygon(
+            50% 0%,
+            95% 25%,
+            95% 75%,
+            50% 100%,
+            5% 75%,
+            5% 25%
+          );
+          clip-path: polygon(
+            50% 0%,
+            95% 25%,
+            95% 75%,
+            50% 100%,
+            5% 75%,
+            5% 25%
+          );
+        }
+        .text {
+          color: #000000;
+          font-weight: 500;
+          margin-bottom: 0rem;
+          font-size: 18px;
+        }
+        .polygonetext {
+          position: absolute;
+        }
+      }
+    }
+  }
+  #lagre{
+    display: block;
+  }
+  #mobile-view{
+    display: none; 
+  }
+  
+  // career
+  .career {
+    .career-title {
+      font-weight: 400;
+      font-size: 24px;
+      color: #ebff00;
+      font-family: "Poppins";
+    }
+    .join-team {
+      font-weight: 500;
+      font-size: 40px;
+      color: #ffffff;
+     
+    }
+
+    .container {
+      .about-value-text {
+       
+        font-weight: 400;
+        font-size: 20px;
+        color: #ffffff;
+      }
+    }
+
+    .card {
+      background: #575f73;
+      border-radius: 16px;
+
+      .team-title {
+       
+        font-weight: 700;
+        font-size: 23px;
+        color: #ffffff;
+      }
+
+      .team-list {
+        ul {
+         
+          font-style: normal;
+          font-weight: 500;
+          font-size: 20px;
+          color: #ffffff;
+          padding-left: 1rem;
+          li {
+            padding-bottom: 1rem;
+          }
+        }
+      }
+      .apply-btn {
+        button {
+          width: 235px;
+          height: 34px;
+          border-radius: 25px;
+          background: #ebff00;
+          color: #000;
+          border-color: #ebff00;
+          font-size: 14px;
+          font-weight: 700;
+        }
+      }
+    }
+  }
+
+  // Contact style
+
+  .contact-title {
+   
+    font-weight: 500;
+    font-size: 22px;
+    color: #ffffff;
+  }
+  .email-address {
+   
+    font-weight: 400;
+    font-size: 18px;
+    color: #ffffff;
+  }
+}
+
+
+// Media Query For Mobile 1phone 
+@media only screen and (max-width: 600px) {
+  .mission-bg-img {
+    height: 327px !important;
+
+    .mission{
+top:99px !important;
+.title{
+  font-size: 28px !important;
+}
+.sub-title{
+  font-size: 16px !important;
+}
+.text{
+  font-size: 14px !important;
+}
+
+    }
+    
+  }
+  .product-title, .about-title, .career-title, .career-title{
+    font-size: 18px !important;
+  }
+  .our-works, .about-us, .join-team{
+    font-size: 22px !important;
+  }
+  #lagre{
+    display: none !important;
+  }
+  #mobile-view{
+    display: block !important; 
+  }
+  .product{ 
+
+    .card-img{
+img{
+  width:18% !important;
+}
+    }
+    .card-title{
+      font-size: 13px !important;
+    }
+    .card-text{
+      font-size: 10px !important;
+    }
+  }
+  .about-value-text{
+    font-size: 14px !important;
+  }
+  .hex4{
+    width: 120px !important;
+    height: 120px !important;
+  }
+  .about-list{
+    .list-group {
+      .list-group-item{
+        font-size: 14px !important;
+        padding-left: 0;
+        span{
+          width: 15px !important;
+          height: 15px !important;
+        }
+      }
+    }
+  }
+
+  .polygons{
+    .text{
+      font-size: 14px !important;
+    }
+  }
+  .team-title{
+    font-size: 14px !important;
+  }
+  .team-list{
+    ul{
+      li{
+        font-size: 12px !important;
+      }
+    }
+  }
+
+  .apply-btn{
+    button{
+      width: 250px;
+      font-size: 12px !important;
+    }
+  }
+  .contact-title{
+    font-size: 14px !important;
+
+  }
+ .email-address{
+  font-size: 12px !important;
+ }
+
+
+
+
+}
+
