@@ -28,17 +28,14 @@
         color: #ebff00;
         font-weight: 500;
         font-size: 54px;
-       
       }
       .sub-title {
         font-weight: 500;
         font-size: 40px;
-       
       }
       .text {
         font-weight: 400;
         font-size: 24px;
-       
       }
     }
   }
@@ -56,12 +53,7 @@
         font-weight: 500;
         font-size: 40px;
         color: #ffffff;
-       
       }
-
-
-
-
     }
     .container {
       .card.daily {
@@ -73,28 +65,40 @@
           background-color: #575f73 !important;
           border-radius: 10px;
         }
-        .card-img{
-          img{
+        .card-img {
+          .top-heading {
+            background: #1da1f2;
+            border-radius: 3px;
+            text-align: center;
             width: 25%;
+
+            .main-title {
+              font-size: 30px;
+              font-weight: 700;
+              color: #fff;
+            }
+            .sub-main-title {
+              color: #fff;
+              margin-top: -0.4rem;
+            }
           }
-         
         }
         .card-title {
           font-weight: 500;
           font-size: 24px;
           color: #ffffff;
-          font-family: 'DM Sans';
+          font-family: "DM Sans";
         }
         .card-text {
           font-weight: 400;
           font-size: 16px;
-          color: #E5E5E5;
-          font-family: 'DM Sans';
+          color: #e5e5e5;
+          font-family: "DM Sans";
         }
       }
     }
   }
-  
+
   // About us
   .about {
     .about-title {
@@ -107,12 +111,10 @@
       font-weight: 500;
       font-size: 40px;
       color: #ffffff;
-     
     }
 
     .container {
       .about-value-text {
-       
         font-weight: 400;
         font-size: 20px;
         color: #ffffff;
@@ -124,7 +126,6 @@
             background: #323238;
             border: none;
             color: #e5e5e5;
-           
 
             font-weight: 400;
             font-size: 24px;
@@ -138,7 +139,6 @@
             }
           }
         }
-       
       }
 
       // polygon style
@@ -180,13 +180,10 @@
       }
     }
   }
-  #lagre{
-    display: block;
+
+  .tab-view {
+    display: none;
   }
-  #mobile-view{
-    display: none; 
-  }
-  
   // career
   .career {
     .career-title {
@@ -199,12 +196,10 @@
       font-weight: 500;
       font-size: 40px;
       color: #ffffff;
-     
     }
 
     .container {
       .about-value-text {
-       
         font-weight: 400;
         font-size: 20px;
         color: #ffffff;
@@ -216,7 +211,6 @@
       border-radius: 16px;
 
       .team-title {
-       
         font-weight: 700;
         font-size: 23px;
         color: #ffffff;
@@ -224,7 +218,6 @@
 
       .team-list {
         ul {
-         
           font-style: normal;
           font-weight: 500;
           font-size: 20px;
@@ -238,7 +231,7 @@
       .apply-btn {
         button {
           width: 235px;
-          height: 34px;
+          height: 40px;
           border-radius: 25px;
           background: #ebff00;
           color: #000;
@@ -253,79 +246,114 @@
   // Contact style
 
   .contact-title {
-   
     font-weight: 500;
     font-size: 22px;
     color: #ffffff;
   }
   .email-address {
-   
     font-weight: 400;
     font-size: 18px;
     color: #ffffff;
   }
 }
 
+.mobile-view{
+  display: none;
+}
+// .web-view{
+//   display:block;
+// }
+::ng-deep .p-carousel .p-carousel-indicators .p-carousel-indicator button {
+width: 1rem !important;
+height: 1rem !important;
+border-radius: 50% !important;
+}
+::ng-deep .p-carousel .p-carousel-indicators .p-carousel-indicator.p-highlight button{
+  background-color: #ebff00 !important;
+}
 
-// Media Query For Mobile 1phone 
+
+
+// Media Query For Mobile 1phone
+@media only screen and (max-width: 820px) {
+  .web-view{
+    display: none;
+  }
+  .mobile-view{
+    display: block;
+  }
+  .tab-view {
+    display: block !important;
+  }
+  .nontabView{
+    display: none;
+  }
+
+}
 @media only screen and (max-width: 600px) {
   .mission-bg-img {
     height: 327px !important;
 
-    .mission{
-top:99px !important;
-.title{
-  font-size: 28px !important;
-}
-.sub-title{
-  font-size: 16px !important;
-}
-.text{
-  font-size: 14px !important;
-}
-
+    .mission {
+      top: 99px !important;
+      .title {
+        font-size: 28px !important;
+      }
+      .sub-title {
+        font-size: 16px !important;
+      }
+      .text {
+        font-size: 14px !important;
+      }
     }
-    
   }
-  .product-title, .about-title, .career-title, .career-title{
+  .product-title,
+  .about-title,
+  .career-title,
+  .career-title {
     font-size: 18px !important;
   }
-  .our-works, .about-us, .join-team{
+  .our-works,
+  .about-us,
+  .join-team {
     font-size: 22px !important;
   }
-  #lagre{
-    display: none !important;
-  }
-  #mobile-view{
-    display: block !important; 
-  }
-  .product{ 
 
-    .card-img{
-img{
-  width:18% !important;
-}
+
+  .product {
+    .card-img {
+      .top-heading {
+        width: 35% !important;
+
+        .main-title {
+          font-size: 18px !important;
+          
+        }
+        .sub-main-title {
+          font-size: 12px !important;
+        }
+      }
     }
-    .card-title{
+    .card-title {
       font-size: 13px !important;
     }
-    .card-text{
+    .card-text {
       font-size: 10px !important;
     }
   }
-  .about-value-text{
+  .about-value-text {
     font-size: 14px !important;
   }
-  .hex4{
+  .hex4 {
     width: 120px !important;
     height: 120px !important;
   }
-  .about-list{
+  .about-list {
     .list-group {
-      .list-group-item{
+      .list-group-item {
         font-size: 14px !important;
         padding-left: 0;
-        span{
+        span {
           width: 15px !important;
           height: 15px !important;
         }
@@ -333,38 +361,45 @@ img{
     }
   }
 
-  .polygons{
-    .text{
+  .polygons {
+    .text {
       font-size: 14px !important;
     }
   }
-  .team-title{
-    font-size: 14px !important;
+  .team-title {
+    font-size: 12px !important;
   }
-  .team-list{
-    ul{
-      li{
+  .team-list {
+    ul {
+      li {
         font-size: 12px !important;
       }
     }
   }
 
-  .apply-btn{
-    button{
-      width: 250px;
+  .apply-btn {
+    button {
+      width: 117px !important;
+      height: 32px !important;
       font-size: 12px !important;
     }
   }
-  .contact-title{
+  .contact-title {
     font-size: 14px !important;
-
   }
- .email-address{
-  font-size: 12px !important;
- }
-
-
-
-
+  .email-address {
+    font-size: 12px !important;
+  }
+  .web-view{
+    display: none;
+  }
+  .mobile-view{
+    display: block;
+  }
+  .nontabView{
+    display: none;
+  }
+  .tab-view {
+    display: block !important;
+  }
 }
-

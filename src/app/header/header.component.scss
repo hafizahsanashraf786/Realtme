@@ -1,8 +1,26 @@
 .main-header {
+  .navbar-brand{  
+      img{
+        height: 75px;
+      }
+  }
   .bg-litblack {
     background: #323238;
     padding: 0rem;
   }
+  .navbar-toggler{
+    border: none;
+    &:focus{
+      border: none;
+      box-shadow: none;
+    }
+
+    .header-toogle-icon{
+      font-size: 30px;
+      color: #fff;
+        }
+  }
+ 
   .nav-list {
     padding-right: 1.5rem;
     .nav-item {
@@ -17,4 +35,22 @@
       }
     }
   }
+}
+
+
+@media only screen and (max-width: 600px) {
+  .navbar-brand{
+    img{
+      height: 50px !important;
+    }
+  }
+.show{
+  ul.nav-list{
+    border-top: 1px solid #949C9E;
+    li{
+      text-align: center;
+    }
+  }
+}
+
 }
