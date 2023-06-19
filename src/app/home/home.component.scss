@@ -30,10 +30,12 @@
         font-size: 54px;
       }
       .sub-title {
+        padding-top: 40px;
         font-weight: 500;
         font-size: 40px;
       }
       .text {
+        padding-top: 24px;
         font-weight: 400;
         font-size: 24px;
       }
@@ -44,24 +46,29 @@
   .product {
     .our-product {
       .product-title {
+        padding-top: 60px;
         font-weight: 400;
         font-size: 24px;
         color: #ebff00;
         font-family: "Poppins";
       }
       .our-works {
+        padding-top: 16px;
         font-weight: 500;
         font-size: 40px;
         color: #ffffff;
       }
     }
-    .container {
+    .container.pro-container {
+      padding-top: 30px;
+
       .card.daily {
         background: #575f73 !important;
         border: 1px solid #949c9e;
         box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
         border-radius: 10px;
         .card-body {
+          padding: 22px 0 20px 25px;
           background-color: #575f73 !important;
           border-radius: 10px;
         }
@@ -70,7 +77,7 @@
             background: #1da1f2;
             border-radius: 3px;
             text-align: center;
-            width: 25%;
+            width: 22%;
 
             .main-title {
               font-size: 30px;
@@ -79,17 +86,21 @@
             }
             .sub-main-title {
               color: #fff;
-              margin-top: -0.4rem;
+              margin-top: -0.8rem;
+              padding-bottom: 8px;
             }
           }
         }
         .card-title {
+          padding-top: 23px;
           font-weight: 500;
           font-size: 24px;
           color: #ffffff;
           font-family: "DM Sans";
+          margin: 0;
         }
         .card-text {
+          padding-top: 15px;
           font-weight: 400;
           font-size: 16px;
           color: #e5e5e5;
@@ -101,6 +112,7 @@
 
   // About us
   .about {
+    padding-top: 120px;
     .about-title {
       font-weight: 400;
       font-size: 24px;
@@ -108,6 +120,7 @@
       font-family: "Poppins";
     }
     .about-us {
+      padding-top: 8px;
       font-weight: 500;
       font-size: 40px;
       color: #ffffff;
@@ -115,12 +128,15 @@
 
     .container {
       .about-value-text {
+        padding-top: 74.5px;
+        font-style: normal;
         font-weight: 400;
         font-size: 20px;
         color: #ffffff;
       }
 
       .about-list {
+        padding-top: 60px;
         .list-group {
           .list-group-item {
             background: #323238;
@@ -143,6 +159,7 @@
 
       // polygon style
       .polygons {
+        padding-top: 59px;
         .polygon {
           margin-top: -28px;
         }
@@ -187,18 +204,23 @@
   // career
   .career {
     .career-title {
+      padding-top: 118px;
       font-weight: 400;
       font-size: 24px;
       color: #ebff00;
       font-family: "Poppins";
     }
     .join-team {
+      padding-top: 8px;
       font-weight: 500;
       font-size: 40px;
       color: #ffffff;
     }
 
     .container {
+      .web-view {
+        padding-top: 60px;
+      }
       .about-value-text {
         font-weight: 400;
         font-size: 20px;
@@ -211,6 +233,7 @@
       border-radius: 16px;
 
       .team-title {
+        padding: 32px 20px 16px 20px;
         font-weight: 700;
         font-size: 23px;
         color: #ffffff;
@@ -223,12 +246,14 @@
           font-size: 20px;
           color: #ffffff;
           padding-left: 1rem;
+          margin: 0;
           li {
-            padding-bottom: 1rem;
+            padding-bottom: 20px;
           }
         }
       }
       .apply-btn {
+        padding: 24px 23px 32px 23px;
         button {
           width: 235px;
           height: 40px;
@@ -244,51 +269,241 @@
   }
 
   // Contact style
+  .Contact {
+    .contact-title {
+      padding-top: 120px;
+      font-weight: 400;
+      font-size: 24px;
+      color: #ebff00;
+      font-family: "Poppins";
+    }
+    .contact-subtitle {
+      padding-top: 8px;
+      font-weight: 500;
+      font-size: 40px;
+      color: #ffffff;
+    }
 
-  .contact-title {
-    font-weight: 500;
-    font-size: 22px;
-    color: #ffffff;
-  }
-  .email-address {
-    font-weight: 400;
-    font-size: 18px;
-    color: #ffffff;
+    .card {
+      margin: 32px 0 60px 0;
+      background: #575f73;
+      border-radius: 16px;
+
+      .contact-mailtitle {
+        font-weight: 500;
+        font-size: 22px;
+        color: #ffffff;
+      }
+      .email-address {
+        font-weight: 400;
+        font-size: 18px;
+        color: #ffffff;
+      }
+    }
   }
 }
 
-.mobile-view{
+.mobile-view {
   display: none;
 }
 // .web-view{
 //   display:block;
 // }
 ::ng-deep .p-carousel .p-carousel-indicators .p-carousel-indicator button {
-width: 1rem !important;
-height: 1rem !important;
-border-radius: 50% !important;
+  width: 1rem !important;
+  height: 1rem !important;
+  border-radius: 50% !important;
 }
-::ng-deep .p-carousel .p-carousel-indicators .p-carousel-indicator.p-highlight button{
+::ng-deep
+  .p-carousel
+  .p-carousel-indicators
+  .p-carousel-indicator.p-highlight
+  button {
   background-color: #ebff00 !important;
 }
 
-
-
 // Media Query For Mobile 1phone
-@media only screen and (max-width: 820px) {
-  .web-view{
+@media only screen and (max-width: 996px) {
+  .web-view {
     display: none;
   }
-  .mobile-view{
+  .mobile-view {
     display: block;
   }
   .tab-view {
     display: block !important;
   }
-  .nontabView{
+  .nontabView {
     display: none;
   }
+  .mission-bg-img {
+    height: 514px !important;
 
+    .mission {
+      top: 150px !important;
+      .title {
+        font-size: 36px !important;
+      }
+      .sub-title {
+        padding-top: 24px !important;
+        font-size: 24px !important;
+      }
+      .text {
+        padding-top: 8px !important;
+        font-size: 16px !important;
+      }
+    }
+    .our-works {
+      padding-top: 16px !important ;
+    }
+  }
+  .product {
+    .container.pro-container {
+      padding-top: 40px !important;
+    }
+    .product-title {
+      font-size: 18px !important;
+    }
+    .our-works {
+      padding-top: 16px !important ;
+      font-size: 24px !important;
+    }
+    .card.daily {
+      .card-body {
+        padding: 15.7px 0 25px 22px !important;
+      }
+      // .card-img {
+      //   .top-heading {
+      //     width: 28% !important;
+      //     height: 40px;
+
+      //     .main-title {
+      //       font-size: 18px !important;
+      //     }
+      //     .sub-main-title {
+      //       margin-top: -0.4rem !important;
+      //       font-size: 8px !important;
+      //     }
+      //   }
+      // }
+    }
+
+    .card-title {
+      padding-top: 19.26px !important;
+      font-size: 18px !important;
+    }
+    .card-text {
+      padding-top: 8px !important;
+      font-size: 12px !important;
+    }
+    p.card-text {
+      padding-top: 16px !important;
+      font-size: 14px !important;
+    }
+  }
+  .about {
+    padding-top: 80px !important;
+    .about-title {
+      font-size: 20px !important;
+    }
+    .about-us {
+      padding-top: 16px !important;
+      font-size: 24px !important ;
+    }
+
+    .about-value-text {
+      padding-top: 40px !important;
+      font-size: 20px !important;
+    }
+    .hex4 {
+      width: 157px !important;
+      height: 157px !important;
+    }
+    .about-list {
+      .list-group {
+        padding-top: 46.63px;
+        .list-group-item {
+          padding-top: 24px;
+          font-size: 24px !important;
+          padding-left: 0;
+          span {
+            width: 33.33px !important;
+            height: 33.33px !important;
+          }
+        }
+      }
+    }
+
+    .polygons {
+      padding-top: 39px !important;
+      .text {
+        font-size: 20px !important;
+      }
+    }
+  }
+  .career {
+    .career-title {
+      padding-top: 80px !important;
+      font-size: 18px !important;
+    }
+    .join-team {
+      padding-top: 16px !important;
+      font-size: 24px !important;
+      padding-bottom: 40px !important;
+    }
+
+    .team-title {
+      padding: 32px 20px 16px 20px !important;
+      font-size: 26px !important;
+    }
+    .team-list {
+      ul {
+        li {
+          font-size: 20px !important;
+          padding-bottom: 16px !important;
+        }
+      }
+    }
+
+    .apply-btn {
+      padding: 24px 23px 32px 23px !important ;
+      button {
+        width: 250px !important;
+        height: 50px !important;
+        font-size: 14px !important;
+        font-weight: 700;
+      }
+    }
+  }
+  .Contact {
+    .contact-title {
+      padding-top: 80px !important;
+      font-size: 18px !important;
+    }
+    .contact-subtitle {
+      padding-top: 16px !important;
+      font-size: 24px !important;
+    }
+
+    .card {
+      margin: 40px 0 40px 0 !important;
+
+      .contact-mailtitle {
+        padding: 16px 50px 16px 24px !important;
+        font-size: 22px !important;
+      }
+      .email-address {
+        padding: 18px 24px 18px 0 !important;
+        font-weight: 400 !important;
+        font-size: 18px !important;
+      }
+    }
+  }
+
+  ::ng-deep .p-carousel .p-carousel-indicators .p-carousel-indicator button {
+    width: 0.9rem !important;
+    height: 0.9rem !important;
+  }
 }
 @media only screen and (max-width: 600px) {
   .mission-bg-img {
@@ -300,13 +515,28 @@ border-radius: 50% !important;
         font-size: 28px !important;
       }
       .sub-title {
+        padding-top: 11px !important;
         font-size: 16px !important;
       }
       .text {
+        padding-top: 16px !important;
         font-size: 14px !important;
       }
     }
   }
+  .product-title {
+    padding-top: 32px !important ;
+  }
+  .our-works {
+    padding-top: 8px !important ;
+  }
+  .career-title {
+    padding-top: 64px !important;
+  }
+  .join-team {
+    padding-top: 8px !important;
+  }
+
   .product-title,
   .about-title,
   .career-title,
@@ -319,87 +549,142 @@ border-radius: 50% !important;
     font-size: 22px !important;
   }
 
-
   .product {
-    .card-img {
-      .top-heading {
-        width: 35% !important;
+    .container.pro-container {
+      padding-top: 36px !important;
+    }
+    .card.daily {
+      .card-body {
+        padding: 7px 0 9px 10px !important;
+      }
+      .card-img {
+        .top-heading {
+          width: 28% !important;
+          height: 40px;
 
-        .main-title {
-          font-size: 18px !important;
-          
-        }
-        .sub-main-title {
-          font-size: 12px !important;
+          .main-title {
+            font-size: 18px !important;
+          }
+          .sub-main-title {
+            margin-top: -0.4rem !important;
+            font-size: 8px !important;
+          }
         }
       }
     }
+
     .card-title {
+      padding-top: 9px !important;
       font-size: 13px !important;
     }
     .card-text {
-      font-size: 10px !important;
+      font-family: "Roboto" !important;
+      padding-top: 3px !important;
+      font-size: 8px !important;
+    }
+    p.card-text {
+      padding-top: 6px !important;
+      font-size: 13px !important;
     }
   }
-  .about-value-text {
-    font-size: 14px !important;
-  }
-  .hex4 {
-    width: 120px !important;
-    height: 120px !important;
-  }
-  .about-list {
-    .list-group {
-      .list-group-item {
-        font-size: 14px !important;
-        padding-left: 0;
-        span {
-          width: 15px !important;
-          height: 15px !important;
+  .about {
+    padding-top: 63.95px !important;
+    .about-value-text {
+      padding-top: 24px !important;
+      font-size: 16px !important;
+    }
+    .hex4 {
+      width: 120px !important;
+      height: 120px !important;
+    }
+    .about-list {
+      .list-group {
+        padding-top: 31.85px;
+        .list-group-item {
+          padding-top: 15px;
+          font-size: 16px !important;
+          padding-left: 0;
+          span {
+            width: 20px !important;
+            height: 20px !important;
+          }
         }
+      }
+    }
+
+    .polygons {
+      padding-top: 16px !important;
+      .text {
+        font-size: 16px !important;
       }
     }
   }
 
-  .polygons {
-    .text {
-      font-size: 14px !important;
-    }
-  }
   .team-title {
-    font-size: 12px !important;
+    padding: 20px 10px 10px 10px !important;
+    font-size: 16.5px !important;
   }
   .team-list {
     ul {
       li {
-        font-size: 12px !important;
+        font-size: 12.7px !important;
+        padding-bottom: 16px !important;
       }
     }
   }
 
   .apply-btn {
+    padding: 10px 12.07px 20px 12.07px !important ;
     button {
-      width: 117px !important;
+      width: 158px !important;
       height: 32px !important;
       font-size: 12px !important;
+      font-weight: 700;
     }
   }
-  .contact-title {
-    font-size: 14px !important;
-  }
+  // .contact-title {
+  //   font-size: 14px !important;
+  // }
   .email-address {
     font-size: 12px !important;
   }
-  .web-view{
+  .web-view {
     display: none;
   }
-  .mobile-view{
+  .mobile-view {
     display: block;
   }
-  .nontabView{
+  .nontabView {
     display: none;
   }
   .tab-view {
     display: block !important;
+  }
+  ::ng-deep .p-carousel .p-carousel-indicators .p-carousel-indicator button {
+    width: 0.7rem !important;
+    height: 0.7rem !important;
+  }
+  .Contact {
+    .contact-title {
+      padding-top: 64.95px !important;
+      font-size: 18px !important;
+    }
+    .contact-subtitle {
+      font-size: 22px !important;
+    }
+
+    .card {
+      margin: 18px 0 32px 0 !important;
+
+      .contact-mailtitle {
+        padding: 12.5px 42px 12.5px 16px !important;
+        font-size: 18px !important;
+      }
+      .email-address {
+        padding: 12.5px 16px 12.5px 0 !important;
+        font-weight: 400 !important;
+        font-size: 16px !important;
+      }
+    }
   }
 }

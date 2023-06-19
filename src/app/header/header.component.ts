@@ -9,6 +9,7 @@ import { Router } from '@angular/router';
 })
 export class HeaderComponent 
 {
+	icon: boolean = false;
   constructor(private router: Router) {}
 
   goto(page: string, id: string | null = null): void {		
@@ -19,4 +20,11 @@ export class HeaderComponent
 			this.router.navigate(['/' + page]);
 		}
 	}
+	changeIcon() {
+		if (this.icon == false) {
+		  this.icon = true;
+		} else {
+		  this.icon = false;
+		}
+	  }
 }

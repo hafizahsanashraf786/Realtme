@@ -1,12 +1,13 @@
 .main-footer {
   background: #323238;
-  padding: 2rem 0 1rem 0;
   border-top: 1px solid #ddd;
 
   .footer-logo {
+    padding-top: 24px;
     padding-left: 1.5rem;
   }
   .nav-list {
+    padding-top: 24px;
     display: flex !important;
     flex-direction: row;
     justify-content: center;
@@ -28,6 +29,7 @@
     }
   }
   .social-icons {
+    padding-top: 24px;
     div {
       background: #fff;
       margin-left: 1.5rem;
@@ -36,20 +38,43 @@
       border-radius: 25%;
     }
   }
-  .copy-title,
+  .copy-title {
+    padding-top: 24px;
+    color: #949c9e;
+    font-weight: 400;
+    font-size: 14px;
+  }
   .copy-right {
+    padding-top: 8px;
     color: #949c9e;
     font-weight: 400;
     font-size: 14px;
   }
 }
-
-@media only screen and (max-width: 600px) {
-
+@media only screen and (max-width: 996px) {
   .main-footer {
-    .nav-list{
-      .nav-item{
-        a{
+    .nav-list {
+      .nav-item {
+        a {
+          font-size: 22px !important;
+        }
+      }
+    }
+  }
+  .copy-title {
+    padding-top: 24px !important;
+    font-size: 16px !important;
+  }
+  .copy-right {
+    padding-top: 8px !important;
+    font-size: 16px !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .main-footer {
+    .nav-list {
+      .nav-item {
+        a {
           font-size: 16px !important;
         }
       }

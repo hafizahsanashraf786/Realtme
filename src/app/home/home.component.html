@@ -2,9 +2,7 @@
   <div class="row g-0">
     <div class="col-sm-12">
       <div class="mission-bg-img" id="home">
-        <div
-          class="mission d-flex flex-column justify-content-center align-items-center text-center"
-        >
+        <div class="mission d-flex flex-column justify-content-center align-items-center text-center">
           <div class="title">Mission</div>
           <div class="sub-title">
             Innovative solutions for a better tomorrow
@@ -20,75 +18,58 @@
     <!-- product section  -->
     <div class="col-sm-12">
       <section class="product" id="products">
-        <div
-          class="our-product d-flex flex-column justify-content-center align-items-center text-center pt-5 pb-3"
-        >
-          <div class="product-title pb-1">Our Products</div>
+        <div class="our-product d-flex flex-column justify-content-center align-items-center text-center ">
+          <div class="product-title ">Our Products</div>
           <div class="our-works">What We Do</div>
         </div>
 
-        <div class="container pb-5 pt-3">
+        <div class="container pro-container">
           <!-- Mobile View or Tab View  -->
           <div class="mobile-view">
             <div class="row g-0">
               <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                <p-carousel
-                  [value]="products"
-                  [numVisible]="4"
-                  [numScroll]="1"
-                  [circular]="true"
-                  [autoplayInterval]="3000"
-                  [showIndicators]="true"
-                  [showNavigators]="false"
-                  [responsiveOptions]="responsiveOptions"
-                >
+                <p-carousel [value]="products" [numVisible]="4" [numScroll]="1" [circular]="true"
+                  [autoplayInterval]="3000" [showIndicators]="true" [showNavigators]="false"
+                  [responsiveOptions]="responsiveOptions">
                   <ng-template let-product pTemplate="item">
                     <div class="card daily mx-2">
-                      <div class="card-body">
-                        <div class="card-img pb-2">
-                          <div
-                            class="f-flex justify-content-start align-items-center"
-                          >
+                      <div class="card-body ">
+                        <div class="card-img">
+                          <div class="f-flex justify-content-start align-items-center">
                             <div class="me-auto top-heading">
-                              <div class="main-title">
-                                {{ product.toptitle }}
-                              </div>
-                              <div class="sub-main-title pb-1">
-                                {{ product.topSubTitle }}
-                              </div>
+                              <div class="main-title"> {{ product.toptitle }}</div>
+                              <div class="sub-main-title">{{ product.topSubTitle }}</div>
                             </div>
                           </div>
                         </div>
                         <h5 class="card-title">{{ product.productTitle }}</h5>
-                        <div class="card-text pb-2">
-                          {{ product.productSubTitle }}
-                        </div>
-                        <p class="card-text">{{ product.ProductDes }}</p>
+                        <div class="card-text "> {{ product.productSubTitle }}</div>
+                        <p class="card-text">{{ product.ProductDes }}
+                        </p>
                       </div>
                     </div>
+
                   </ng-template>
                 </p-carousel>
               </div>
             </div>
           </div>
 
-          <div class="web-view">
+          <div class="web-view ">
             <div class="row">
               <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6">
                 <div class="card daily">
-                  <div class="card-body">
-                    <div class="card-img pb-2">
-                      <div
-                        class="f-flex justify-content-start align-items-center"
-                      >
+                  <div class="card-body ">
+                    <div class="card-img">
+                      <div class="f-flex justify-content-start align-items-center">
                         <div class="me-auto top-heading">
                           <div class="main-title">Me</div>
-                          <div class="sub-main-title pb-1">Daily</div>
+                          <div class="sub-main-title">Daily</div>
                         </div>
                       </div>
                     </div>
                     <h5 class="card-title">Mevolve Daily</h5>
-                    <div class="card-text pb-2">Mobile App, Website</div>
+                    <div class="card-text ">Mobile App, Website</div>
                     <p class="card-text">
                       Lorem ipsum dolor sit amet, consec tet ur adipiscing elit.
                       Accumsan sed faucibu s faucibus augue. Cras ut.
@@ -99,18 +80,16 @@
               <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6">
                 <div class="card daily">
                   <div class="card-body">
-                    <div class="card-img pb-2">
-                      <div
-                        class="f-flex justify-content-start align-items-center"
-                      >
+                    <div class="card-img ">
+                      <div class="f-flex justify-content-start align-items-center">
                         <div class="me-auto top-heading">
                           <div class="main-title">Me</div>
-                          <div class="sub-main-title pb-1">Junior</div>
+                          <div class="sub-main-title">Junior</div>
                         </div>
                       </div>
                     </div>
                     <h5 class="card-title">Mevolve Junior</h5>
-                    <div class="card-text pb-2">Mobile App, Website</div>
+                    <div class="card-text ">Mobile App, Website</div>
                     <p class="card-text">
                       Lorem ipsum dolor sit amet, consec tet ur adipiscing elit.
                       Accumsan sed faucibu s faucibus augue. Cras ut.
@@ -121,18 +100,16 @@
               <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6">
                 <div class="card daily">
                   <div class="card-body">
-                    <div class="card-img pb-2">
-                      <div
-                        class="f-flex justify-content-start align-items-center"
-                      >
+                    <div class="card-img">
+                      <div class="f-flex justify-content-start align-items-center">
                         <div class="me-auto top-heading">
                           <div class="main-title">Me</div>
-                          <div class="sub-main-title pb-1">Focus</div>
+                          <div class="sub-main-title">Focus</div>
                         </div>
                       </div>
                     </div>
                     <h5 class="card-title">Mevolve Focus</h5>
-                    <div class="card-text pb-2">Mobile App, Website</div>
+                    <div class="card-text">Mobile App, Website</div>
                     <p class="card-text">
                       Lorem ipsum dolor sit amet, consec tet ur adipiscing elit.
                       Accumsan sed faucibu s faucibus augue. Cras ut.
@@ -149,14 +126,12 @@
     <!-- about us action  -->
     <div class="col-sm-12">
       <section class="about" id="about">
-        <div
-          class="d-flex flex-column justify-content-center align-items-center text-center pt-5 pb-5"
-        >
-          <div class="about-title pb-1">About</div>
+        <div class="d-flex flex-column justify-content-center align-items-center text-center ">
+          <div class="about-title">About</div>
           <div class="about-us">Our Culture and Values</div>
         </div>
 
-        <div class="container pb-5">
+        <div class="container">
           <div class="nontabView">
             <div class="row">
               <div class="col-sm-6">
@@ -166,36 +141,32 @@
                   strive to create innovative solutions that address your needs
                   and exceed your expectations. .
                 </div>
-                <div class="about-list pt-4">
+                <div class="about-list">
                   <ul class="list-group mx-auto">
                     <div class="list-group-item">
                       <span
-                        class="d-inline-flex align-items-center justify-content-center text-white rounded-circle m-1 me-2"
-                      >
+                        class="d-inline-flex align-items-center justify-content-center text-white rounded-circle m-1 me-2">
                         <i class="bi bi-check-lg"></i>
                       </span>
                       Great mobile app
                     </div>
                     <div class="list-group-item">
                       <span
-                        class="d-inline-flex align-items-center justify-content-center text-white rounded-circle m-1 me-2"
-                      >
+                        class="d-inline-flex align-items-center justify-content-center text-white rounded-circle m-1 me-2">
                         <i class="bi bi-check"></i>
                       </span>
                       Innovative website design
                     </div>
                     <div class="list-group-item">
                       <span
-                        class="d-inline-flex align-items-center justify-content-center text-white rounded-circle m-1 me-2"
-                      >
+                        class="d-inline-flex align-items-center justify-content-center text-white rounded-circle m-1 me-2">
                         <i class="bi bi-check"></i>
                       </span>
                       UI/UX design with global trends
                     </div>
                     <div class="list-group-item">
                       <span
-                        class="d-inline-flex align-items-center justify-content-center text-white rounded-circle m-1 me-2"
-                      >
+                        class="d-inline-flex align-items-center justify-content-center text-white rounded-circle m-1 me-2">
                         <i class="bi bi-check"></i>
                       </span>
                       Web and email hosting service
@@ -209,73 +180,47 @@
                 <div class="polygons">
                   <div class="d-flex align-items-center justify-content-center">
                     <div class="hex4"></div>
-                    <div
-                      class="polygonetext d-flex flex-column justify-content-center align-items-center"
-                    >
+                    <div class="polygonetext d-flex flex-column justify-content-center align-items-center">
                       <p class="text">Innovative</p>
                       <p class="text">Solution</p>
                     </div>
                   </div>
-                  <div
-                    class="polygon d-flex align-items-center justify-content-center"
-                  >
-                    <div
-                      class="d-flex align-items-center justify-content-center"
-                    >
+                  <div class="polygon d-flex align-items-center justify-content-center">
+                    <div class="d-flex align-items-center justify-content-center">
                       <div class="hex4"></div>
-                      <div
-                        class="polygonetext d-flex flex-column justify-content-center align-items-center"
-                      >
+                      <div class="polygonetext d-flex flex-column justify-content-center align-items-center">
                         <p class="text">Remote</p>
                         <p class="text">First</p>
                         <p class="text">Approch</p>
                       </div>
                     </div>
-                    <div
-                      class="d-flex align-items-center justify-content-center"
-                    >
+                    <div class="d-flex align-items-center justify-content-center">
                       <div class="hex4"></div>
-                      <div
-                        class="polygonetext d-flex flex-column justify-content-center align-items-center"
-                      >
+                      <div class="polygonetext d-flex flex-column justify-content-center align-items-center">
                         <p class="text">Speed</p>
                         <p class="text">&</p>
                         <p class="text">Execution</p>
                       </div>
                     </div>
                   </div>
-                  <div
-                    class="polygon d-flex align-items-center justify-content-center"
-                  >
-                    <div
-                      class="d-flex align-items-center justify-content-center"
-                    >
+                  <div class="polygon d-flex align-items-center justify-content-center">
+                    <div class="d-flex align-items-center justify-content-center">
                       <div class="hex4"></div>
-                      <div
-                        class="polygonetext d-flex flex-column justify-content-center align-items-center"
-                      >
+                      <div class="polygonetext d-flex flex-column justify-content-center align-items-center">
                         <p class="text">Employee</p>
                         <p class="text">Engagement</p>
                       </div>
                     </div>
-                    <div
-                      class="d-flex align-items-center justify-content-center"
-                    >
+                    <div class="d-flex align-items-center justify-content-center">
                       <div class="hex4"></div>
-                      <div
-                        class="polygonetext d-flex flex-column justify-content-center align-items-center"
-                      >
+                      <div class="polygonetext d-flex flex-column justify-content-center align-items-center">
                         <p class="text">Encouraging</p>
                         <p class="text">Leadership</p>
                       </div>
                     </div>
-                    <div
-                      class="d-flex align-items-center justify-content-center"
-                    >
+                    <div class="d-flex align-items-center justify-content-center">
                       <div class="hex4"></div>
-                      <div
-                        class="polygonetext d-flex flex-column justify-content-center align-items-center"
-                      >
+                      <div class="polygonetext d-flex flex-column justify-content-center align-items-center">
                         <p class="text">Employee</p>
                         <p class="text">Retention</p>
                       </div>
@@ -340,77 +285,49 @@
                   </div>
                   <div class="col-sm-12">
                     <div class="polygons">
-                      <div
-                        class="d-flex align-items-center justify-content-center"
-                      >
+                      <div class="d-flex align-items-center justify-content-center">
                         <div class="hex4"></div>
-                        <div
-                          class="polygonetext d-flex flex-column justify-content-center align-items-center"
-                        >
+                        <div class="polygonetext d-flex flex-column justify-content-center align-items-center">
                           <p class="text">Innovative</p>
                           <p class="text">Solution</p>
                         </div>
                       </div>
-                      <div
-                        class="polygon d-flex align-items-center justify-content-center"
-                      >
-                        <div
-                          class="d-flex align-items-center justify-content-center"
-                        >
+                      <div class="polygon d-flex align-items-center justify-content-center">
+                        <div class="d-flex align-items-center justify-content-center">
                           <div class="hex4"></div>
-                          <div
-                            class="polygonetext d-flex flex-column justify-content-center align-items-center"
-                          >
+                          <div class="polygonetext d-flex flex-column justify-content-center align-items-center">
                             <p class="text">Remote</p>
                             <p class="text">First</p>
                             <p class="text">Approch</p>
                           </div>
                         </div>
-                        <div
-                          class="d-flex align-items-center justify-content-center"
-                        >
+                        <div class="d-flex align-items-center justify-content-center">
                           <div class="hex4"></div>
-                          <div
-                            class="polygonetext d-flex flex-column justify-content-center align-items-center"
-                          >
+                          <div class="polygonetext d-flex flex-column justify-content-center align-items-center">
                             <p class="text">Speed</p>
                             <p class="text">&</p>
                             <p class="text">Execution</p>
                           </div>
                         </div>
                       </div>
-                      <div
-                        class="polygon d-flex align-items-center justify-content-center"
-                      >
-                        <div
-                          class="d-flex align-items-center justify-content-center"
-                        >
+                      <div class="polygon d-flex align-items-center justify-content-center">
+                        <div class="d-flex align-items-center justify-content-center">
                           <div class="hex4"></div>
-                          <div
-                            class="polygonetext d-flex flex-column justify-content-center align-items-center"
-                          >
+                          <div class="polygonetext d-flex flex-column justify-content-center align-items-center">
                             <p class="text">Employee</p>
                             <p class="text">Engagement</p>
                           </div>
                         </div>
-                        <div
-                          class="d-flex align-items-center justify-content-center"
-                        >
+                        <div class="d-flex align-items-center justify-content-center">
                           <div class="hex4"></div>
-                          <div
-                            class="polygonetext d-flex flex-column justify-content-center align-items-center"
-                          >
+                          <div class="polygonetext d-flex flex-column justify-content-center align-items-center">
                             <p class="text">Encouraging</p>
                             <p class="text">Leadership</p>
                           </div>
                         </div>
-                        <div
-                          class="d-flex align-items-center justify-content-center"
-                        >
+                        <div class="d-flex align-items-center justify-content-center">
                           <div class="hex4"></div>
-                          <div
-                            class="polygonetext d-flex flex-column justify-content-center align-items-center"
-                          >
+                          <div class="polygonetext d-flex flex-column justify-content-center align-items-center">
                             <p class="text">Employee</p>
                             <p class="text">Retention</p>
                           </div>
@@ -423,32 +340,28 @@
                       <ul class="list-group mx-auto">
                         <div class="list-group-item">
                           <span
-                            class="d-inline-flex align-items-center justify-content-center text-white rounded-circle m-1 me-2"
-                          >
+                            class="d-inline-flex align-items-center justify-content-center text-white rounded-circle m-1 me-2">
                             <i class="bi bi-check-lg"></i>
                           </span>
                           Great mobile app
                         </div>
                         <div class="list-group-item">
                           <span
-                            class="d-inline-flex align-items-center justify-content-center text-white rounded-circle m-1 me-2"
-                          >
+                            class="d-inline-flex align-items-center justify-content-center text-white rounded-circle m-1 me-2">
                             <i class="bi bi-check"></i>
                           </span>
                           Innovative website design
                         </div>
                         <div class="list-group-item">
                           <span
-                            class="d-inline-flex align-items-center justify-content-center text-white rounded-circle m-1 me-2"
-                          >
+                            class="d-inline-flex align-items-center justify-content-center text-white rounded-circle m-1 me-2">
                             <i class="bi bi-check"></i>
                           </span>
                           UI/UX design with global trends
                         </div>
                         <div class="list-group-item">
                           <span
-                            class="d-inline-flex align-items-center justify-content-center text-white rounded-circle m-1 me-2"
-                          >
+                            class="d-inline-flex align-items-center justify-content-center text-white rounded-circle m-1 me-2">
                             <i class="bi bi-check"></i>
                           </span>
                           Web and email hosting service
@@ -467,25 +380,23 @@
     <!-- career us action  -->
     <div class="col-sm-12">
       <section class="career" id="career">
-        <div
-          class="d-flex flex-column justify-content-center align-items-center text-center pt-5 pb-3"
-        >
-          <div class="career-title pb-1">Career</div>
+        <div class="d-flex flex-column justify-content-center align-items-center text-center ">
+          <div class="career-title">Career</div>
           <div class="join-team">Join our team</div>
         </div>
 
-        <div class="row g-0 pb-5">
+        <div class="row g-0">
           <div class="col-sm-12">
             <div class="container">
+
+
               <div class="web-view">
                 <div class="row">
                   <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
                     <div class="card">
-                      <div
-                        class="card-body d-flex flex-column align-items-center justify-content-center py-4"
-                      >
+                      <div class="d-flex flex-column align-items-center justify-content-center">
                         <div class="team-title">Front End Developer</div>
-                        <div class="team-list py-3">
+                        <div class="team-list">
                           <ul>
                             <li>Angular</li>
                             <li>Firebase</li>
@@ -502,11 +413,9 @@
 
                   <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
                     <div class="card">
-                      <div
-                        class="card-body d-flex flex-column align-items-center justify-content-center py-4"
-                      >
+                      <div class=" d-flex flex-column align-items-center justify-content-center">
                         <div class="team-title">Flutter Developer</div>
-                        <div class="team-list py-3">
+                        <div class="team-list">
                           <ul>
                             <li>Flutter</li>
                             <li>Firebase</li>
@@ -523,11 +432,9 @@
 
                   <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
                     <div class="card">
-                      <div
-                        class="card-body d-flex flex-column align-items-center justify-content-center py-4"
-                      >
+                      <div class=" d-flex flex-column align-items-center justify-content-center">
                         <div class="team-title">UI/UX Designer</div>
-                        <div class="team-list py-3">
+                        <div class="team-list">
                           <ul>
                             <li>Figma</li>
                             <li>Canva</li>
@@ -544,21 +451,16 @@
 
                   <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
                     <div class="card">
-                      <div
-                        class="card-body d-flex flex-column align-items-center justify-content-center py-4"
-                      >
+                      <div class="d-flex flex-column align-items-center justify-content-center">
                         <div class="team-title">QA Automation</div>
-                        <div class="team-list py-3">
+                        <div class="team-list">
                           <ul>
                             <li>Appium</li>
                             <li>Typescript</li>
                           </ul>
                         </div>
                         <div class="apply-btn">
-                          <button
-                            type="button"
-                            class="btn btn-danger form-control"
-                          >
+                          <button type="button" class="btn btn-danger form-control">
                             Apply
                           </button>
                         </div>
@@ -567,27 +469,23 @@
                   </div>
                 </div>
               </div>
+
+
+
+
               <!-- Mobile View or Tab View  -->
               <div class="mobile-view">
                 <div class="row g-0">
                   <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                    <p-carousel
-                      [value]="carrer"
-                      [numVisible]="4"
-                      [numScroll]="1"
-                      [circular]="true"
-                      [autoplayInterval]="3000"
-                      [showIndicators]="true"
-                      [showNavigators]="false"
-                      [responsiveOptions]="responsiveOptions"
-                    >
+                    <p-carousel [value]="carrer" [numVisible]="4" [numScroll]="1" [circular]="true"
+                      [autoplayInterval]="3000" [showIndicators]="true" [showNavigators]="false"
+                      [responsiveOptions]="responsiveOptions">
                       <ng-template let-product pTemplate="item">
+
                         <div class="card m-2">
-                          <div
-                            class="card-body d-flex flex-column align-items-center justify-content-center py-4"
-                          >
+                          <div class="d-flex flex-column align-items-center justify-content-center">
                             <div class="team-title">{{ product.title }}</div>
-                            <div class="team-list py-3">
+                            <div class="team-list">
                               <ul>
                                 <li>{{ product.list1 }}</li>
                                 <li>{{ product.list2 }}</li>
@@ -613,19 +511,15 @@
 
     <!-- Contact us action  -->
     <div class="col-sm-12">
-      <section class="career pb-5" id="contact">
-        <div
-          class="d-flex flex-column justify-content-center align-items-center text-center pt-5 pb-3"
-        >
-          <div class="career-title pb-1">Contact</div>
-          <div class="join-team">Let’s talk</div>
+      <section class="Contact " id="contact">
+        <div class="d-flex flex-column justify-content-center align-items-center text-center">
+          <div class="contact-title ">Contact</div>
+          <div class="contact-subtitle">Let’s talk</div>
 
           <div class="card">
-            <div
-              class="card-body d-flex align-items-center justify-content-center py-2"
-            >
-              <div class="contact-title">Mail us -</div>
-              <div class="email-address">hello@realtimeinnovations.com</div>
+            <div class="card-body d-flex align-items-center justify-content-center py-2">
+              <div class="contact-mailtitle">Mail us - </div>
+              <div class="email-address"> hello@realtimeinnovations.com</div>
             </div>
           </div>
         </div>

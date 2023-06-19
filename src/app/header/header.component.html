@@ -1,37 +1,39 @@
 <header class="main-header">
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-litblack">
-      <div class="container-fluid">
-        <a class="navbar-brand" (click)="goto('/', 'features')">
-          <img src="../../assets/images/realtimeino-Logo.png" alt="" width="" height="" class="img-fluid ps-3">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <i class="bi bi-list header-toogle-icon"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          </ul>
-          <ul class="navbar-nav  mb-2 mb-lg-0 nav-list">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" (click)="goto('/', 'home')">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" (click)="goto('/', 'products')">Products</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" (click)="goto('/', 'about')">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" (click)="goto('/', 'career')">Career</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" (click)="goto('/', 'contact')">Contact</a>
-            </li>
-  
-          </ul>
-        </div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-litblack">
+    <div class="container-fluid">
+      <a class="navbar-brand" (click)="goto('/', 'features')">
+        <img src="../../assets/images/realtimeino-Logo.png" alt="" width="" height="" class="img-fluid ps-3">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+        (click)=" changeIcon()">
+        <i class="bi bi-list header-toogle-icon" *ngIf="!icon"></i>
+        <i class="bi bi-x header-toogle-icon" *ngIf="icon"></i>
+
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        </ul>
+        <ul class="navbar-nav ms-auto  my-2 my-lg-0 text-center  mb-2 mb-lg-0 nav-list">
+          <li class="nav-item ">
+            <a class="nav-link active" aria-current="page" (click)="goto('/', 'home')">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" (click)="goto('/', 'products')">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" (click)="goto('/', 'about')">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" (click)="goto('/', 'career')">Career</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" (click)="goto('/', 'contact')">Contact</a>
+          </li>
+
+        </ul>
       </div>
-    </nav>
-  </header>
-  
+    </div>
+  </nav>
+</header>
