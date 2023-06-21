@@ -50,6 +50,9 @@
   }
 }
 
+
+
+
 @media only screen and (max-width: 996px) {
   .navbar {
     position: absolute;
@@ -76,8 +79,6 @@
     }
   }
   #navbarSupportedContent{
-    border-top: 1px solid #949C9E !important;
-    border-bottom: 1px solid #949C9E !important;
     border-radius: 4px 0px 0px 4px !important;
   }
     ul.nav-list {
@@ -85,7 +86,30 @@
     }
   
 }
-
+@media only screen and (max-width:996px) and (min-width:768px){
+  .navbar{
+    .navbar-toggler{
+      display: none;
+    }
+    .navbar-collapse{
+      display: flex !important;
+      border: none !important;
+      flex: auto !important;
+      + ul{
+        display: none;
+      }
+      .nav-list{
+        display: flex;
+        flex-direction: row;
+        .nav-item{
+          .nav-link{
+            font-size: 16px !important;
+          }
+        }
+      }
+    }
+  }
+}
 @media only screen and (max-width: 600px) {
   .navbar {
     position: absolute;
