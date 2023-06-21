@@ -74,7 +74,7 @@
   .collapse {
     ul.nav-list {
       text-align: center !important;
-      border-top: 1px solid #949c9e;
+      // border-top: 1px solid #949c9e;
     }
   }
 }
@@ -86,7 +86,9 @@
     width: 100%;
     z-index: 9999;
   }
-  
+  .container-fluid{
+    padding: 0px !important;
+  }
   .navbar-brand .logo-text .innovation,
   .navbar-brand .logo-text .real-time {
     font-weight: 500;
@@ -110,10 +112,22 @@
       }
     }
   }
-  .collapse {
-    ul.nav-list {
-      text-align: center !important;
-      border-top: 1px solid #949c9e;
-    }
+  #navbarSupportedContent{
+    border-top: 1px solid #949C9E !important;
+    border-bottom: 1px solid #949C9E !important;
+border-radius: 4px 0px 0px 4px !important;
   }
+    ul.nav-list {
+      padding: 0px !important;
+      text-align: center !important;
+      // border-top: 1px solid #949c9e;
+      .nav-item{
+line-height: 24px !important;
+        .nav-link{
+          font-size: 16px !important;
+        }
+      }
+     
+    }
+
 }
