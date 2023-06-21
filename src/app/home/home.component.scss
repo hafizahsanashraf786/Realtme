@@ -127,7 +127,7 @@
         padding-top: 74.5px;
         font-style: normal;
         font-weight: 400;
-        font-size: 20px;
+        font-size: 17px;
         color: #ffffff;
       }
 
@@ -197,6 +197,7 @@
   .tab-view {
     display: none;
   }
+
   // career
   .career {
     .career-title {
@@ -369,20 +370,6 @@
       .card-body {
         padding: 15.7px 0 25px 22px !important;
       }
-      // .card-img {
-      //   .top-heading {
-      //     width: 28% !important;
-      //     height: 40px;
-
-      //     .main-title {
-      //       font-size: 18px !important;
-      //     }
-      //     .sub-main-title {
-      //       margin-top: -0.4rem !important;
-      //       font-size: 8px !important;
-      //     }
-      //   }
-      // }
     }
 
     .card-title {
@@ -658,8 +645,8 @@
     display: block !important;
   }
   ::ng-deep .p-carousel .p-carousel-indicators .p-carousel-indicator button {
-    width: 0.7rem !important;
-    height: 0.7rem !important;
+    width: 0.5rem !important;
+    height: 0.5rem !important;
   }
   .Contact {
     .contact-title {

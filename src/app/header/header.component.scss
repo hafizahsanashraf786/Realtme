@@ -80,6 +80,21 @@
 }
 
 @media only screen and (max-width: 600px) {
+  .navbar {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+  }
+  
+  .navbar-brand .logo-text .innovation,
+  .navbar-brand .logo-text .real-time {
+    font-weight: 500;
+    font-size: 22px !important;
+    line-height: 15px !important;
+    color: #ebff00;
+  }
+
   .navbar-brand {
     img {
       width: 100%;

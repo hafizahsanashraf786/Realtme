@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 
+
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
@@ -38,6 +39,7 @@ export class HomeComponent {
         numScroll: 1,
       },
     ];
+
     this.products = [
       {
         id: '0',
@@ -63,14 +65,7 @@ export class HomeComponent {
         productSubTitle: 'Mobile App, Website',
         ProductDes:"Lorem ipsum dolor sit amet, consec tet ur adipiscing elit. Accumsan sed faucibu s faucibus augue. Cras ut."
       },
-
-
-    ]
-
-
-
-
-
+    ];
 
     this.carrer = [
       {
@@ -99,6 +94,7 @@ export class HomeComponent {
       },
     ];
   }
+  
   ngOnInit() {}
 }
 
