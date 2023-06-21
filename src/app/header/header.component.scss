@@ -56,6 +56,15 @@
 }
 
 @media only screen and (max-width: 996px) {
+  .navbar {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+  }
+  .container-fluid{
+    padding: 0px !important;
+  }
   .navbar-brand {
     img {
       width: 100%;
@@ -71,12 +80,16 @@
       }
     }
   }
-  .collapse {
+  #navbarSupportedContent{
+    border-top: 1px solid #949C9E !important;
+    border-bottom: 1px solid #949C9E !important;
+border-radius: 4px 0px 0px 4px !important;
+  }
     ul.nav-list {
       text-align: center !important;
       // border-top: 1px solid #949c9e;
     }
-  }
+  
 }
 
 @media only screen and (max-width: 600px) {
