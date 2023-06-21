@@ -304,9 +304,6 @@
 .mobile-view {
   display: none;
 }
-// .web-view{
-//   display:block;
-// }
 ::ng-deep .p-carousel .p-carousel-indicators .p-carousel-indicator button {
   width: 1rem !important;
   height: 1rem !important;
@@ -343,10 +340,10 @@
     display: none;
   }
   .mission-bg-img {
-    height: 514px !important;
+    height: 445px !important;
 
     .mission {
-      top: 150px !important;
+      top: 170px !important;
       .title {
         font-size: 36px !important;
       }
@@ -493,8 +490,8 @@
   }
 
   ::ng-deep .p-carousel .p-carousel-indicators .p-carousel-indicator button {
-    width: 0.9rem !important;
-    height: 0.9rem !important;
+    width: 0.6rem !important;
+    height: 0.6rem !important;
   }
 }
 @media only screen and (max-width: 600px) {

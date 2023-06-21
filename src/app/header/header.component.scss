@@ -1,9 +1,4 @@
 .main-header {
-  // .navbar-brand {
-  //   img {
-  //     height: 75px;
-  //   }
-  // }
   .navbar-brand {
     img {
       width: 100%;
@@ -83,11 +78,10 @@
   #navbarSupportedContent{
     border-top: 1px solid #949C9E !important;
     border-bottom: 1px solid #949C9E !important;
-border-radius: 4px 0px 0px 4px !important;
+    border-radius: 4px 0px 0px 4px !important;
   }
     ul.nav-list {
       text-align: center !important;
-      // border-top: 1px solid #949c9e;
     }
   
 }
@@ -128,19 +122,17 @@ border-radius: 4px 0px 0px 4px !important;
   #navbarSupportedContent{
     border-top: 1px solid #949C9E !important;
     border-bottom: 1px solid #949C9E !important;
-border-radius: 4px 0px 0px 4px !important;
+    border-radius: 4px 0px 0px 4px !important;
   }
     ul.nav-list {
       padding: 0px !important;
       text-align: center !important;
-      // border-top: 1px solid #949c9e;
+
       .nav-item{
-line-height: 24px !important;
+        line-height: 24px !important;
         .nav-link{
           font-size: 16px !important;
         }
       }
-     
     }
-
 }
