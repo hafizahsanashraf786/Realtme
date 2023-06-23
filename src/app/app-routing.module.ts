@@ -1,15 +1,16 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { WebsiteComponent } from './website/website.component';
 
-const routes: Routes = [];
+const routes: Routes = [{ path: '**', component: WebsiteComponent }];
 
 @NgModule({
   imports: [
     RouterModule.forRoot(routes, {
       initialNavigation: 'enabledBlocking',
-      anchorScrolling: 'enabled'
-    })
+      anchorScrolling: 'enabled',
+    }),
   ],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}

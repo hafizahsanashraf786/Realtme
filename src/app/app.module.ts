@@ -7,20 +7,18 @@ import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { CarouselModule } from 'primeng/carousel';
+import { WebsiteComponent } from './website/website.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    WebsiteComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    CarouselModule
-  ],
+  imports: [BrowserModule, AppRoutingModule, CarouselModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
