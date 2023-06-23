@@ -1,10 +1,9 @@
 import { Component } from '@angular/core';
 
-
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
-  styleUrls: ['./home.component.scss']
+  styleUrls: ['./home.component.scss'],
 })
 export class HomeComponent {
   carrer: any[] = [];
@@ -47,7 +46,8 @@ export class HomeComponent {
         topSubTitle: 'Daily',
         productTitle: 'Mevolve Daily',
         productSubTitle: 'Mobile App, Website',
-        ProductDes:"Lorem ipsum dolor sit amet, consec tet ur adipiscing elit. Accumsan sed faucibu s faucibus augue. Cras ut."
+        ProductDes:
+          'Lorem ipsumii dolor sit amet, consec tet ur adipiscing elit. Accumsan sed faucibu s faucibus augue. Cras ut.',
       },
       {
         id: '1',
@@ -55,7 +55,8 @@ export class HomeComponent {
         topSubTitle: 'Junior',
         productTitle: 'Mevolve Junior',
         productSubTitle: 'Mobile App, Website',
-        ProductDes:"Lorem ipsum dolor sit amet, consec tet ur adipiscing elit. Accumsan sed faucibu s faucibus augue. Cras ut."
+        ProductDes:
+          'Lorem ipsum dolor sit amet, consec tet ur adipiscing elit. Accumsan sed faucibu s faucibus augue. Cras ut.',
       },
       {
         id: '2',
@@ -63,7 +64,8 @@ export class HomeComponent {
         topSubTitle: 'Focus',
         productTitle: 'Mevolve Focus',
         productSubTitle: 'Mobile App, Website',
-        ProductDes:"Lorem ipsum dolor sit amet, consec tet ur adipiscing elit. Accumsan sed faucibu s faucibus augue. Cras ut."
+        ProductDes:
+          'Lorem ipsum dolor sit amet, consec tet ur adipiscing elit. Accumsan sed faucibu s faucibus augue. Cras ut.',
       },
     ];
 
@@ -94,7 +96,6 @@ export class HomeComponent {
       },
     ];
   }
-  
+
   ngOnInit() {}
 }
-

@@ -2,9 +2,13 @@
   background: #323238;
   border-top: 1px solid #ddd;
 
-  .footer-logo {
+  .footer-logo-section {
     padding-top: 24px;
     padding-left: 1.5rem;
+
+    .logo {
+      width: 4rem;
+    }
   }
   .nav-list {
     padding-top: 24px;
