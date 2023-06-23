@@ -102,6 +102,9 @@
           padding-top: 15px;
           font-weight: 400;
           font-size: 16px;
+          color: #fff;
+        }
+        .card--sub-text {
           color: #e5e5e5;
         }
       }
@@ -274,7 +277,7 @@
       color: #ebff00;
     }
     .contact-subtitle {
-      padding-top: 8px;
+      padding-top: 2px;
       font-weight: 500;
       font-size: 40px;
       color: #ffffff;
@@ -524,7 +527,7 @@
     padding-top: 64px !important;
   }
   .join-team {
-    padding-top: 8px !important;
+    padding-top: 0 !important;
   }
 
   .product-title,
@@ -568,29 +571,28 @@
       font-size: 13px !important;
     }
     .card-text {
-      font-family: "Roboto" !important;
       padding-top: 3px !important;
       font-size: 8px !important;
     }
     p.card-text {
       padding-top: 6px !important;
-      font-size: 12px !important;
+      font-size: 11px !important;
       line-height: 13.5px !important;
     }
   }
   .about {
-    padding-top: 63.95px !important;
+    padding-top: 50px !important;
     .about-value-text {
       padding-top: 24px !important;
-      font-size: 16px !important;
+      font-size: 14px !important;
       line-height: 24px !important;
     }
    
     .about-list {
       .list-group {
-        padding-top: 31.85px;
+        padding-top: 10px;
         .list-group-item {
-          padding-top: 15px;
+          padding-top: 10px;
           font-size: 16px !important;
           padding-left: 0;
           span {
@@ -638,9 +640,7 @@
       font-weight: 700;
     }
   }
-  // .contact-title {
-  //   font-size: 14px !important;
-  // }
+ 
   .email-address {
     font-size: 12px !important;
   }
@@ -662,7 +662,7 @@
   }
   .Contact {
     .contact-title {
-      padding-top: 64.95px !important;
+      padding-top: 50px !important;
       font-size: 18px !important;
     }
     .contact-subtitle {

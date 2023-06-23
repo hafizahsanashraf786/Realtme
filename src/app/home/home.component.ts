@@ -47,7 +47,7 @@ export class HomeComponent {
         productTitle: 'Mevolve Daily',
         productSubTitle: 'Mobile App, Website',
         ProductDes:
-          'Lorem ipsumii dolor sit amet, consec tet ur adipiscing elit. Accumsan sed faucibu s faucibus augue. Cras ut.',
+          'Lorem ipsum dolor sit amet, consec tet ur adipiscing elit. Accumsan sed faucibu s faucibus augue. Cras ut.',
       },
       {
         id: '1',

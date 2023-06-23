@@ -4,7 +4,6 @@
 
   .footer-logo-section {
     padding-top: 24px;
-    padding-left: 1.5rem;
 
     .logo {
       width: 4rem;
@@ -19,7 +18,9 @@
     line-height: 30px;
 
     .nav-item {
-      padding-left: 1.5rem;
+      &:not(:first-child) {
+        padding-left: 1.5rem;
+      }
 
       .nav-link {
         color: #fff;
@@ -35,7 +36,7 @@
   }
   .social-icons {
     line-height: 24px;
-    padding-top: 24px;
+    padding-top: 10px;
     div {
       margin-left: 5px;
       padding: 0.1rem 0.2rem 0.1rem 0.2rem;
@@ -82,20 +83,21 @@
   .main-footer {
     .nav-list {
       .nav-item {
-        padding-left: 1rem !important;
         line-height: 30px !important;
-      }
-      .nav-item {
-        
+
+        &:not(:first-child) {
+          padding-left: 1rem !important;
+        }
+
         a {
-          font-size: 16px !important;
+          font-size: 14px !important;
         }
       }
     }
     .social-icons{
       img{
         height: 30px !important;
-    width: 30px !important;
+        width: 30px !important;
       }
     }
     .copy-title{
