@@ -28,7 +28,7 @@ export class HomeComponent {
         numScroll: 1,
       },
       {
-        breakpoint: '820px',
+        breakpoint: '992px',
         numVisible: 2,
         numScroll: 1,
       },
