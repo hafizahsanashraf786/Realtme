@@ -16,6 +16,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    line-height: 30px;
 
     .nav-item {
       padding-left: 1.5rem;
@@ -33,6 +34,7 @@
     }
   }
   .social-icons {
+    line-height: 24px;
     padding-top: 24px;
     div {
       margin-left: 5px;
@@ -46,12 +48,15 @@
     color: #949c9e;
     font-weight: 400;
     font-size: 14px;
+    line-height: 24px;
   }
   .copy-right {
     padding-top: 8px;
     color: #949c9e;
     font-weight: 400;
     font-size: 14px;
+    line-height: 24px;
+    padding-bottom: 1rem;
   }
 }
 @media only screen and (max-width: 996px) {
@@ -77,13 +82,30 @@
   .main-footer {
     .nav-list {
       .nav-item {
-        padding-left: 1rem;
+        padding-left: 1rem !important;
+        line-height: 30px !important;
       }
       .nav-item {
+        
         a {
-          font-size: 13px !important;
+          font-size: 16px !important;
         }
       }
+    }
+    .social-icons{
+      img{
+        height: 30px !important;
+    width: 30px !important;
+      }
+    }
+    .copy-title{
+      font-size: 14px !important;
+      line-height: 21px !important;
+    }
+    .copy-right{
+      font-size: 14px !important;
+      line-height: 21px !important;
+      padding-bottom: 1rem !important;
     }
   }
 }
