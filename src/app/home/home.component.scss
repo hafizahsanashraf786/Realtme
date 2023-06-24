@@ -330,14 +330,11 @@
 }
 
 @media only screen and (min-width: 605px) and (max-width: 1200px)  {
-  .web-view {
-    display: none;
-  }
-  .mobile-view {
-    display: block;
-  }
-  .tab-view {
+  .mobile-view.career-mobileview{
     display: block !important;
+  }
+  .web-view.career-webview{
+    display: none !important;
   }
 }
 
@@ -390,7 +387,7 @@
     }
     .card.daily {
       .card-body {
-        padding: 15.7px 0 25px 22px !important;
+        padding: 15.7px 22px 25px 22px !important;
       }
     }
 
@@ -562,7 +559,7 @@
     }
     .card.daily {
       .card-body {
-        padding: 7px 0 9px 10px !important;
+        padding: 7px 10px 9px 10px !important;
       }
       .card-img {
         .top-heading {
