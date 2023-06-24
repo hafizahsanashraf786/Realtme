@@ -68,7 +68,7 @@
         box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
         border-radius: 10px;
         .card-body {
-          padding: 22px 0 20px 25px;
+          padding: 22px 25px 20px;
           background-color: #575f73 !important;
           border-radius: 10px;
         }
@@ -103,6 +103,7 @@
           font-weight: 400;
           font-size: 16px;
           color: #fff;
+          word-break: break-all;
         }
         .card--sub-text {
           color: #e5e5e5;
@@ -254,8 +255,9 @@
       }
       .apply-btn {
         padding: 24px 23px 32px 23px;
+        width: 100%;
         button {
-          width: 235px;
+          width: 100%;
           height: 40px;
           border-radius: 25px;
           background: #ebff00;
@@ -325,6 +327,18 @@
   .p-carousel-indicator
   button {
     background: #949C9E !important;
+}
+
+@media only screen and (min-width: 605px) and (max-width: 1200px)  {
+  .web-view {
+    display: none;
+  }
+  .mobile-view {
+    display: block;
+  }
+  .tab-view {
+    display: block !important;
+  }
 }
 
 // Media Query For Mobile 1phone
