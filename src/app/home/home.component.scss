@@ -255,9 +255,9 @@
       }
       .apply-btn {
         padding: 24px 23px 32px 23px;
-        width: 100%;
+        // width: 100%;
         button {
-          width: 100%;
+          width: 235px;
           height: 40px;
           border-radius: 25px;
           background: #ebff00;
@@ -374,6 +374,7 @@
       padding-top: 16px !important ;
     }
   }
+
   .product {
     .container.pro-container {
       padding-top: 40px !important;
@@ -388,6 +389,20 @@
     .card.daily {
       .card-body {
         padding: 15.7px 22px 25px 22px !important;
+      }
+    }
+    .card-img {
+      .top-heading {
+        width: 28% !important;
+        height: 50px;
+
+        .main-title {
+          font-size: 22px !important;
+        }
+        .sub-main-title {
+          margin-top: -0.4rem !important;
+          font-size: 12px !important;
+        }
       }
     }
 
